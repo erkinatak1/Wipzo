@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const faqs = [
   {
@@ -39,9 +40,12 @@ export default function Page() {
           <div className="navlinks">
             <a href="#teknoloji">Teknoloji</a>
             <a href="#speklist">Spesifikasyon</a>
+            <Link href="/kullanim">Kullanım</Link>
             <a href="#sss">SSS</a>
           </div>
-          <button className="btn">Ön Sipariş Ver</button>
+          <Link href="/siparis" className="btn">
+            Ön Sipariş Ver
+          </Link>
         </div>
       </nav>
 
@@ -62,7 +66,9 @@ export default function Page() {
                 saklamıyoruz — her rakamı etiketimizde görebilirsiniz.
               </p>
               <div className="hero-cta">
-                <button className="btn">Ön Sipariş Ver — 549 TL</button>
+                <Link href="/siparis" className="btn">
+                  Ön Sipariş Ver — 549 TL
+                </Link>
                 <button className="btn btn-ghost">Teknolojiyi İncele ↓</button>
               </div>
               <div className="hero-note">
@@ -96,7 +102,7 @@ export default function Page() {
                 </div>
                 <div className="spec-row">
                   <span className="k">Kenar</span>
-                  <span className="v">Lazer Kesim</span>
+                  <span className="v">Kaplı Şerit</span>
                 </div>
                 <div className="spec-row">
                   <span className="k">Ölçü</span>
@@ -135,7 +141,8 @@ export default function Page() {
                 <h5>Standart Bez</h5>
                 <p>
                   Düz dokuma, düşük gramaj. Su yüzeyde gezinir, kurulama
-                  sonrası ince iz bırakır. Kenar dikişi boyayı çizebilir.
+                  sonrası ince iz bırakır. Ham/dikişli kenar boyayı
+                  çizebilir.
                 </p>
               </div>
               <div className="good">
@@ -151,7 +158,8 @@ export default function Page() {
                 <h5>Wipzo — Twisted-Loop</h5>
                 <p>
                   800 GSM yoğunluk, bükümlü ilmek yapısı suyu hızla emer.
-                  Lazer kesim kenar, dikişsiz — çizik riski yok.
+                  Kaplı şerit kenar, ham kumaş temas etmez — çizik riski
+                  yok.
                 </p>
               </div>
             </div>
@@ -190,10 +198,11 @@ export default function Page() {
               </div>
               <div className="tech-card">
                 <span className="num">0 mm</span>
-                <h3>Dikişsiz Kenar</h3>
+                <h3>Kaplı Şerit Kenar</h3>
                 <p>
-                  Lazer kesim, overlok dikişin aksine sert bir kenar
-                  bırakmaz. Boya ve cam üzerinde çizik riski oluşturmaz.
+                  Ham kumaş kenarı, dokunmuş bir şeritle tamamen kapatılır.
+                  Boyayla temas eden yüzey her zaman yumuşak — çizik riski
+                  oluşturmaz.
                 </p>
               </div>
             </div>
@@ -226,7 +235,7 @@ export default function Page() {
               </div>
               <div className="row">
                 <div className="k">KENAR İŞLEMİ</div>
-                <div className="v">Lazer kesim, dikişsiz</div>
+                <div className="v">Kaplı şerit kenar (bound edge)</div>
               </div>
               <div className="row">
                 <div className="k">ÖLÇÜ</div>
@@ -282,7 +291,9 @@ export default function Page() {
               Sınırlı adet üretimin ilk partisinde yer almak isteyenler için
               özel ön sipariş fiyatı.
             </p>
-            <button className="btn">Ön Sipariş Ver — 549 TL</button>
+            <Link href="/siparis" className="btn">
+              Ön Sipariş Ver — 549 TL
+            </Link>
           </div>
         </section>
       </main>
