@@ -292,7 +292,7 @@ export default function Page() {
               özel ön sipariş fiyatı.
             </p>
             <Link href="/siparis" className="btn">
-              Ön Sipariş Ver — 549 TL
+              Ön Sipariş Ver — 399 TL
             </Link>
           </div>
         </section>
