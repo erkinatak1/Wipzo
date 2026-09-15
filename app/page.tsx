@@ -78,7 +78,7 @@ export default function Page() {
             <div className="spec-tag-wrap">
               <div className="product-image-wrap">
                 <Image
-                  src="/wipzo-bez.jpg"
+                  src="/wipzo-bez.avif"
                   alt="Wipzo 800 GSM twisted loop mikrofiber araç kurutma bezi"
                   width={480}
                   height={600}
@@ -131,7 +131,7 @@ export default function Page() {
               <div className="bad">
                 <div className="compare-image-wrap">
                   <Image
-                    src="/su-izli-yuzey.jpg"
+                    src="/su-izli-yuzey.webp"
                     alt="Standart bezle silinmiş, su izi kalan araç yüzeyi"
                     width={520}
                     height={320}
@@ -148,7 +148,7 @@ export default function Page() {
               <div className="good">
                 <div className="compare-image-wrap">
                   <Image
-                    src="/wipzo-sonrasi.jpg"
+                    src="/wipzo-sonrasi.webp"
                     alt="Wipzo ile kurutulmuş, izsiz araç yüzeyi"
                     width={520}
                     height={320}
